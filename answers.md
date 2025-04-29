@@ -14,6 +14,7 @@ Place all written answers from `recitation-05.md` here for easier grading.
 
 - **1b.**
 - The running times generally align with the expected asymptotic bounds, but fixed-pivot Quicksort can degrade to O(n^2) on sorted inputs. Random-pivot Quicksort performs better overall, though it's still slower than Timsort. Timsort is significantly faster and more consistent, particularly on sorted input, due to its hybrid approach that takes advantage of existing order.
+- **to understand the table better, put it in edit mode**
 - Random:
 n	qsort-fixed-pivot	qsort-random-pivot	tim-sort
 100	0.225	0.341	0.011
