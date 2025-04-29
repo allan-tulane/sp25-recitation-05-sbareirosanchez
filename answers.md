@@ -45,3 +45,15 @@ n	qsort-fixed-pivot	qsort-random-pivot	tim-sort
 
 
 - **1c.**
+- Based on the results, Timsort (Python’s built-in sorted()) consistently outperforms both Quicksort variants across all input sizes and types. It is especially optimized for sorted or partially sorted data. The fixed-pivot Quicksort performs the worst on sorted inputs, while random-pivot Quicksort provides a reliable middle ground. Timsort remains the most efficient and scalable option.
+- n	qsort-fixed-pivot	qsort-random-pivot	tim-sort
+100	     0.215	           0.258	         0.013
+200	     0.712	           0.593	         0.021
+500	     1.380	           1.504	         0.060
+1000	   2.655	           3.294	         0.124
+2000	   8.120	           10.382	         0.498
+5000	   26.291	           32.631	         1.228
+10000	   101.732	         111.682	       2.449
+20000    205.092	         211.437	       5.002
+50000	   693.883	         752.914	       13.124
+100000	 1405.113	         1593.328	       89.364
