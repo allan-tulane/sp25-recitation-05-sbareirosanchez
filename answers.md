@@ -26,8 +26,8 @@ n	qsort-fixed-pivot	qsort-random-pivot	tim-sort
 20000	214.903	219.777	4.901
 50000	732.113	780.341	11.817
 100000	1442.221	1662.003	87.234
-Sorted Input:
 
+- Sorted:
 n	qsort-fixed-pivot	qsort-random-pivot	tim-sort
 100	0.194	0.250	0.009
 200	0.782	0.641	0.021
